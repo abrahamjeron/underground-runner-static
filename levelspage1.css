@@ -1,0 +1,33 @@
+@font-face {
+    font-family: pixels;
+    src: url("./Press_Start_2P/PressStart2P-Regular.ttf");
+}
+*{
+    font-family: pixels;
+}
+body{
+    background-image: url("./Asserts/homepage\ bg\ image.jpg");
+    background-size: 105%;
+    background-position-x:-50px ;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    position: relative;
+    top: 280px;
+    left: 42%;
+    color: white;
+    font-size: 3rem;
+}
+.levels{
+    position: relative;
+    left: 16%;
+    top: 350px;
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+}
+#level1,#level2{
+    position: relative;
+    height: 350px;
+}
